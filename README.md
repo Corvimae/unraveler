@@ -1,5 +1,5 @@
 # unraveler
-Discord bot that pipes audio to separate mixer channels.
+Discord bot that pipes individual user voice streams to separate mixer channels.
 
 Very, very proof-of-concept at the moment.
 
