@@ -1,0 +1,21 @@
+{
+  "name": "unraveler",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node lib/index.js",
+    "setup": "node lib/configure-bot.js",
+    "dependency-report": "node lib/dependency-report.js"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.8.0",
+    "@discordjs/rest": "^1.0.1",
+    "@discordjs/voice": "^0.11.0",
+    "@toolbuilder/ring-buffer": "^1.2.1",
+    "audify": "^1.7.1",
+    "cbuffer": "^2.2.0",
+    "discord.js": "^14.2.0",
+    "libsodium-wrappers": "^0.7.10"
+  }
+}
