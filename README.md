@@ -6,6 +6,16 @@ Very, very proof-of-concept at the moment.
 ## Usage
 Clone this, run `yarn` to install dependences. Run `yarn setup` once after you create your Discord app. Start the bot with `yarn start`.
 
+Once the bot is in your server, join the text chat for a voice channel (_you have to enable this sorry_) and type `/join`.
+
+## Commands
+
+`/join` - Join the attached voice channel.
+
+`/leave` - Leave the voice channel.
+
+`/flush` - Unmap all the users from their audio channels.
+
 ## Config
 Make a file called `config.json` in the root directory
 
