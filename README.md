@@ -1,10 +1,20 @@
 # unraveler
-Discord bot that pipes audio to separate mixer channels.
+Discord bot that pipes individual user voice streams to separate mixer channels.
 
 Very, very proof-of-concept at the moment.
 
 ## Usage
 Clone this, run `yarn` to install dependences. Run `yarn setup` once after you create your Discord app. Start the bot with `yarn start`.
+
+Once the bot is in your server, join the text chat for a voice channel (_you have to enable this sorry_) and type `/join`.
+
+## Commands
+
+`/join` - Join the attached voice channel.
+
+`/leave` - Leave the voice channel.
+
+`/flush` - Unmap all the users from their audio channels.
 
 ## Config
 Make a file called `config.json` in the root directory
@@ -36,3 +46,8 @@ Scopes: `bot`, `applications.commands`
 Bot Permissions: `Read Messages/View Channels`, `Connect`
 
 Run `yarn setup` once after configuring `config.json`.
+
+## Warning!!!
+
+This absolutely does not shut down properly, and I still haven't figured out why. You may need to check your task manager if you're relaunching the bot frequently.
+
