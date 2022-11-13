@@ -6,6 +6,8 @@ Very, very proof-of-concept at the moment.
 ## Usage
 Clone this, run `yarn` to install dependences. Run `yarn setup` once after you create your Discord app. Start the bot with `yarn start`.
 
+You need the [Visual C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) if installing on Windows. This doesn't work under WSL1; I have not tried WSL2.
+
 Once the bot is in your server, join the text chat for a voice channel (_you have to enable this sorry_) and type `/join`.
 
 ## Commands
