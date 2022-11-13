@@ -36,7 +36,3 @@ Scopes: `bot`, `applications.commands`
 Bot Permissions: `Read Messages/View Channels`, `Connect`
 
 Run `yarn setup` once after configuring `config.json`.
-
-## Warning!!!
-
-This absolutely does not shut down properly, and I still haven't figured out why. You may need to check your task manager if you're relaunching the bot frequently.
